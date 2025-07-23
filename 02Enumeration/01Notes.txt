@@ -1,0 +1,1 @@
+An Enum is a language construct that is used to define type - safe enumerations
