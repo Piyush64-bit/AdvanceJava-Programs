@@ -1,16 +1,17 @@
 
-enum color {
+package Enumeration;
+
+enum Color {
     RED("red"), GREEN("green"), BLUE("blue");
 
-    private String value;
+    private final String value;
 
-    color(String value) {
+    Color(String value) {
         this.value = value;
     }
 
     public String getValue() {
         return value;
-
     }
 }
 
