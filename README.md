@@ -43,7 +43,19 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 │   ├── 📄 01Notes.txt          # Core concepts & theory
 │   ├── ☕ MyOverride.java      # @Override annotation in action
 │   ├── ☕ MyFunctionalInterface.java  # Functional programming vibes
-│   └── ☕ MyDeprecated.java    # Legacy code warnings
+│   ├── ☕ MyDeprecated.java    # Legacy code warnings
+│   ├── ☕ MySuppressWarnings.java     # Suppress compiler warnings
+│   └── 📁 MyCustomAnnotation/  # Custom annotation deep dive
+│       ├── 📄 01Notes.txt      # Custom annotation theory
+│       ├── ☕ Info.java        # Custom @Info annotation
+│       ├── ☕ MyClass.java     # Annotation usage examples
+│       └── ☕ AnnotationReader.java   # Reflection magic
+├── 📁 Enumeration/              # Enum constants & advanced usage
+│   ├── 📄 01Notes.txt          # Enumeration fundamentals
+│   ├── ☕ EnumOne.java         # Basic enum with values
+│   ├── ☕ EnumTwo.java         # Enum methods & iteration
+│   ├── ☕ EnumThree.java       # Advanced enum features
+│   └── ☕ EnumFour.java        # Enum best practices
 ├── 📁 Lambda/                   # (Coming Soon) Functional programming revolution
 ├── 📁 Streams/                  # (Coming Soon) Data processing like a boss
 ├── 📁 Generics/                 # (Coming Soon) Type-safe collections
@@ -60,14 +72,15 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 | Day | Topic | Status | Key Learnings |
 |-----|-------|--------|---------------|
-| **01** | **Annotations** | ✅ Complete | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface` |
+| **01** | **Annotations** | ✅ Complete | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface`, Custom annotations |
+| **02** | **Enumeration** | ✅ Complete | Enum constants, methods, values(), advanced enum usage |
 
 ### 🟡 In Progress
 
 | Day | Topic | Status | ETA |
 |-----|-------|--------|-----|
-| **02** | **Lambda Expressions** | 🔄 Working | This Week |
-| **03** | **Functional Interfaces** | 📋 Planned | Next Week |
+| **03** | **Lambda Expressions** | � Planned | This Week |
+| **04** | **Functional Interfaces** | 📋 Planned | Next Week |
 
 ### 🔴 Coming Soon (The Good Stuff!)
 
@@ -102,6 +115,11 @@ cd Annotations
 javac MyOverride.java
 java MyOverride
 
+# Or try the Enumeration examples
+cd ../Enumeration
+javac EnumOne.java
+java EnumOne
+
 # Watch the magic happen! ✨
 ```
 
@@ -122,8 +140,22 @@ java MyOverride
 - ⚡ How `@Override` saves you from embarrassing bugs
 - 🚨 Why `@Deprecated` is your code's retirement plan
 - 🎯 How `@FunctionalInterface` keeps your lambdas in check
+- 🛠️ Creating custom annotations with `@Info`
+- 🔮 Using Java Reflection to read annotation data at runtime
 
 **Mind-Blowing Moment:** Realizing annotations are compile-time superheroes! 🦸‍♂️
+
+### 🎭 Enumeration (Day 2)
+> *"Constants that aren't just constants — they're objects with superpowers!"*
+
+**What You'll Learn:**
+- 🎯 Why enums beat static final constants every time
+- 🎪 How to give enums constructors, fields, and methods
+- 🔄 Iterating through enum values like a pro
+- 🎨 Advanced enum patterns and best practices
+- 🧠 When and why to use enums in real applications
+
+**Mind-Blowing Moment:** Discovering enums are actually classes in disguise! 🥸
 
 ---
 
