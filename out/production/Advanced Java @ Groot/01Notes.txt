@@ -1,0 +1,39 @@
+Java
+(Advance)
+
+1. annotations are meta Data (data about data) that provide information to the
+compiler, tools or runtime environment about how to process elements in your code.
+
+2. They don't change the logic
+  They provide additional insiruchias.
+
+3. These are used by :
+    a) Spring, hibernate frameworks
+    b) IDEs and Compilers
+
+→ Syntax
+  @AnnotationName
+  public void myMethod() {
+    }
+    The @interface
+    that has 0/1
+    abstract method
+
+→ Common: Built-in Annotations in Java
+    a) Compile time → @Override → tells method
+                                 overrides a superclass
+                                 method
+
+    @Deprecated → marks method / class
+                  as obsolete (out of date)
+
+    @SupressWarnings → supress specific compiler
+                       warnings
+
+    b) Runtime /class → @Documented → includes annotations in Java
+                                      docs
+
+    c) Source control → @FunctionalInterface → means an interface is
+                                                functional
+
+    d) @target → @Target @Retention
