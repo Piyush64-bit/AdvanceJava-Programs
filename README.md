@@ -56,10 +56,15 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 │   ├── ☕ EnumTwo.java         # Enum methods & iteration
 │   ├── ☕ EnumThree.java       # Advanced enum features
 │   └── ☕ EnumFour.java        # Enum best practices
+├── 📁 JavaCollectionsFrameWorks/ # Data structures mastery
+│   ├── ☕ CollectionsDemo.java # HashSet operations & examples
+│   ├── ☕ HashMapDemo.java     # HashMap key-value operations
+│   ├── ☕ MyPriorityQueue.java # Priority queue implementation
+│   ├── ☕ OwnPriorityQueue.java # Custom priority queue logic
+│   └── ☕ Practical.java       # Real-world collections usage
 ├── 📁 Lambda/                   # (Coming Soon) Functional programming revolution
 ├── 📁 Streams/                  # (Coming Soon) Data processing like a boss
 ├── 📁 Generics/                 # (Coming Soon) Type-safe collections
-├── 📁 Collections/              # (Coming Soon) Data structures mastery
 ├── 📁 Multithreading/           # (Coming Soon) Concurrent programming
 └── 📄 README.md                # You are here! 👈
 ```
@@ -74,19 +79,19 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 |-----|-------|--------|---------------|
 | **01** | **Annotations** | ✅ Complete | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface`, Custom annotations |
 | **02** | **Enumeration** | ✅ Complete | Enum constants, methods, values(), advanced enum usage |
+| **03** | **Java Collections Framework** | ✅ Complete | HashSet, HashMap, PriorityQueue, data structure operations |
 
 ### 🟡 In Progress
 
 | Day | Topic | Status | ETA |
 |-----|-------|--------|-----|
-| **03** | **Lambda Expressions** | � Planned | This Week |
-| **04** | **Functional Interfaces** | 📋 Planned | Next Week |
+| **04** | **Lambda Expressions** | 📋 Planned | This Week |
+| **05** | **Functional Interfaces** | 📋 Planned | Next Week |
 
 ### 🔴 Coming Soon (The Good Stuff!)
 
 - **Streams API** — Data manipulation like a ninja 🥷
 - **Generics** — Type safety without the headache 
-- **Collections Framework** — Data structures that don't suck
 - **Multithreading** — Parallel processing madness
 - **Optional Class** — Say goodbye to NullPointerException
 - **Method References** — Code that writes itself (almost!)
@@ -119,6 +124,11 @@ java MyOverride
 cd ../Enumeration
 javac EnumOne.java
 java EnumOne
+
+# Or explore Collections Framework
+cd ../JavaCollectionsFrameWorks
+javac CollectionsDemo.java
+java CollectionsDemo
 
 # Watch the magic happen! ✨
 ```
@@ -156,6 +166,19 @@ java EnumOne
 - 🧠 When and why to use enums in real applications
 
 **Mind-Blowing Moment:** Discovering enums are actually classes in disguise! 🥸
+
+### 🗂️ Java Collections Framework (Day 3)
+> *"Data structures that don't just store data — they make it dance!"*
+
+**What You'll Learn:**
+- 🏗️ HashSet operations and duplicate handling magic
+- 🗺️ HashMap key-value pair mastery and efficient lookups  
+- 🎯 PriorityQueue implementation and custom ordering
+- 🔍 Collections utility methods and iteration patterns
+- ⚡ Performance considerations for different data structures
+- 🎨 Choosing the right collection for the right job
+
+**Mind-Blowing Moment:** Realizing collections are the backbone of every Java application! 🏗️
 
 ---
 
