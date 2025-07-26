@@ -1,5 +1,6 @@
-import java.util.*;
+// pactical
 
+import java.util.*;
 
 public class Practical {
     public static void main(String[] args) {
