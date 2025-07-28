@@ -55,13 +55,16 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 │   ├── ☕ EnumOne.java         # Basic enum with values
 │   ├── ☕ EnumTwo.java         # Enum methods & iteration
 │   ├── ☕ EnumThree.java       # Advanced enum features
-│   └── ☕ EnumFour.java        # Enum best practices
-├── 📁 JavaCollectionsFrameWorks/ # Data structures mastery
+│   ├── ☕ EnumFour.java        # Enum best practices
+│   └── 📁 Calculator/          # Real-world enum applications
+│       └── ☕ EnumFive.java    # Calculator using enums
+├── 📁 JavaCollectionsFrameWorks/ # Data structures mastery & algorithms
 │   ├── ☕ CollectionsDemo.java # HashSet operations & examples
 │   ├── ☕ HashMapDemo.java     # HashMap key-value operations
 │   ├── ☕ MyPriorityQueue.java # Priority queue implementation
 │   ├── ☕ OwnPriorityQueue.java # Custom priority queue logic
-│   └── ☕ Practical.java       # Real-world collections usage
+│   ├── ☕ LeaderBoardExample.java # Real-world ranking system
+│   └── ☕ Practical.java       # Collections utility showcase
 ├── 📁 Lambda/                   # (Coming Soon) Functional programming revolution
 ├── 📁 Streams/                  # (Coming Soon) Data processing like a boss
 ├── 📁 Generics/                 # (Coming Soon) Type-safe collections
@@ -77,9 +80,9 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 | Day | Topic | Status | Key Learnings |
 |-----|-------|--------|---------------|
-| **01** | **Annotations** | ✅ Complete | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface`, Custom annotations |
-| **02** | **Enumeration** | ✅ Complete | Enum constants, methods, values(), advanced enum usage |
-| **03** | **Java Collections Framework** | ✅ Complete | HashSet, HashMap, PriorityQueue, data structure operations |
+| **01** | **Annotations** | ✅ Complete | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface`, Custom annotations with Reflection |
+| **02** | **Enumeration** | ✅ Complete | Enum constants, methods, values(), advanced patterns, Calculator implementation |
+| **03** | **Java Collections Framework** | ✅ Complete | HashSet, HashMap, PriorityQueue, LeaderBoard systems, data structure optimization |
 
 ### 🟡 In Progress
 
@@ -130,13 +133,24 @@ cd ../JavaCollectionsFrameWorks
 javac CollectionsDemo.java
 java CollectionsDemo
 
+# Try the LeaderBoard ranking system
+javac LeaderBoardExample.java
+java LeaderBoardExample
+
+# Or check out the Calculator using enums
+cd ../Enumeration/Calculator
+javac EnumFive.java
+java EnumFive
+
 # Watch the magic happen! ✨
 ```
 
 ### Pro Tips 💡
 - Each folder contains theory notes (`01Notes.txt`) — **READ THEM FIRST!**
-- Run programs in the order they appear
+- Run programs in the order they appear (EnumOne → EnumTwo → EnumThree → EnumFour)
 - Try modifying the code and see what breaks (learning through destruction! 💥)
+- Check out the Calculator subfolder for real-world enum applications
+- Explore LeaderBoardExample.java for practical Collections usage
 
 ---
 
@@ -164,6 +178,7 @@ java CollectionsDemo
 - 🔄 Iterating through enum values like a pro
 - 🎨 Advanced enum patterns and best practices
 - 🧠 When and why to use enums in real applications
+- 🧮 Building a Calculator using enum operations (EnumFive.java)
 
 **Mind-Blowing Moment:** Discovering enums are actually classes in disguise! 🥸
 
@@ -174,11 +189,28 @@ java CollectionsDemo
 - 🏗️ HashSet operations and duplicate handling magic
 - 🗺️ HashMap key-value pair mastery and efficient lookups  
 - 🎯 PriorityQueue implementation and custom ordering
+- 🏆 LeaderBoard ranking systems with real-world applications
 - 🔍 Collections utility methods and iteration patterns
 - ⚡ Performance considerations for different data structures
 - 🎨 Choosing the right collection for the right job
 
 **Mind-Blowing Moment:** Realizing collections are the backbone of every Java application! 🏗️
+
+---
+
+## 🌟 Project Highlights
+
+### 🏆 **Featured Projects**
+- **📊 LeaderBoard Ranking System** - Real-world application using PriorityQueue for dynamic rankings
+- **🧮 Enum Calculator** - Demonstrates advanced enum usage with operation implementations  
+- **🔮 Custom Annotation Framework** - Complete annotation lifecycle with Reflection API
+- **📦 Collections Showcase** - Comprehensive data structure operations and performance comparisons
+
+### 🎯 **Learning Outcomes**
+- **Enterprise-level Java patterns** used in real applications
+- **Performance optimization** techniques for data structures
+- **Clean code practices** with comprehensive documentation
+- **Problem-solving approaches** for common programming challenges
 
 ---
 
