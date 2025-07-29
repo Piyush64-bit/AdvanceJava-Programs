@@ -7,6 +7,25 @@
 ![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-blue?style=for-the-badge)
 
+**🔥 Leveling up in Advanced Java — day-by-day programs, concepts, and code that'll blow your mind! 🔥**
+
+*From zero to hero, one commit at a time* ⚡
+
+![Profile Views](https://komarev.com/ghpvc/?username=Piyush64-bit&color=brightgreen&style=flat-square)
+![Stars](https://img.shields.io/github/stars/Piyush64-bit/AdvanceJava-Programs?style=social)
+![Forks](https://img.shields.io/github/forks/Piyush64-bit/AdvanceJava-Programs?style=social)
+
+</div>
+
+----Programs
+
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-Advanced-orange?style=for-the-badge&logo=java&logoColor=white)
+![Learning](https://img.shields.io/badge/Status-Daily%20Learning-brightgreen?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge)
+![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-blue?style=for-the-badge)
+
 **� Leveling up in Advanced Java — day-by-day programs, concepts, and code that'll blow your mind! 🔥**
 
 *From zero to hero, one commit at a time* ⚡
@@ -25,13 +44,19 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 ## ✨ Features That'll Make You Go "Wow!"
 
-- 📅 **Daily Progress Tracking** — Consistent learning, no excuses!
-- 🧠 **Concept-Driven Approach** — Deep dive into WHY, not just HOW
-- 📝 **Clean, Commented Code** — Every line tells a story
-- 🎯 **Beginner-Friendly** — Complex concepts, simple explanations
-- 🏗️ **Well-Structured Organization** — Find what you need, fast!
-- 💡 **Real-World Examples** — Code that actually makes sense
-- 🔄 **Progressive Learning** — From basics to brain-melting advanced stuff
+<div align="center">
+
+| Feature | Description |
+|---------|-------------|
+| 📅 **Daily Progress Tracking** | Consistent learning, no excuses! |
+| 🧠 **Concept-Driven Approach** | Deep dive into WHY, not just HOW |
+| 📝 **Clean, Commented Code** | Every line tells a story |
+| 🎯 **Beginner-Friendly** | Complex concepts, simple explanations |
+| 🏗️ **Well-Structured Organization** | Find what you need, fast! |
+| 💡 **Real-World Examples** | Code that actually makes sense |
+| 🔄 **Progressive Learning** | From basics to brain-melting advanced stuff |
+
+</div>
 
 ---
 
@@ -64,6 +89,7 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 │   ├── ☕ MyPriorityQueue.java # Priority queue implementation
 │   ├── ☕ OwnPriorityQueue.java # Custom priority queue logic
 │   ├── ☕ LeaderBoardExample.java # Real-world ranking system
+│   ├── ☕ LRUCacheExample.java # LRU Cache implementation with LinkedHashMap
 │   └── ☕ Practical.java       # Collections utility showcase
 ├── 📁 Lambda/                   # (Coming Soon) Functional programming revolution
 ├── 📁 Streams/                  # (Coming Soon) Data processing like a boss
@@ -78,20 +104,29 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 ### 🟢 Completed Topics
 
-| Day | Topic | Status | Key Learnings |
-|-----|-------|--------|---------------|
-| **01** | **Annotations** | ✅ Complete | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface`, Custom annotations with Reflection |
-| **02** | **Enumeration** | ✅ Complete | Enum constants, methods, values(), advanced patterns, Calculator implementation |
-| **03** | **Java Collections Framework** | ✅ Complete | HashSet, HashMap, PriorityQueue, LeaderBoard systems, data structure optimization |
+<div align="center">
+
+| Day | Topic | Status | Completion Date | Key Learnings |
+|-----|-------|:------:|:---------------:|---------------|
+| **01** | **Annotations** | ✅ | `July 21, 2025` | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface`, Custom annotations with Reflection |
+| **02** | **Enumeration** | ✅ | `July 23, 2025` | Enum constants, methods, values(), advanced patterns, Calculator implementation |
+| **03** | **Java Collections Framework** | ✅ | `July 29, 2025` | HashSet, HashMap, PriorityQueue, LeaderBoard systems, LRU Cache, data structure optimization |
+
+</div>
 
 ### 🟡 In Progress
 
-| Day | Topic | Status | ETA |
-|-----|-------|--------|-----|
-| **04** | **Lambda Expressions** | 📋 Planned | This Week |
-| **05** | **Functional Interfaces** | 📋 Planned | Next Week |
+<div align="center">
 
-### 🔴 Coming Soon (The Good Stuff!)
+| Day | Topic | Status | Target Date | ETA |
+|-----|-------|:------:|:-----------:|:---:|
+| **04** | **Lambda Expressions** | 📋 | `July 30, 2025` | This Week |
+| **05** | **Functional Interfaces** | 📋 | `August 2, 2025` | Next Week |
+
+</div>
+
+<details>
+<summary>🔴 <strong>Coming Soon (The Good Stuff!)</strong></summary>
 
 - **Streams API** — Data manipulation like a ninja 🥷
 - **Generics** — Type safety without the headache 
@@ -101,16 +136,26 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 - **Default Methods** — Interface evolution
 - **CompletableFuture** — Async programming done right
 
+</details>
+
 ---
 
 ## 🏃‍♂️ How to Run These Programs
 
-### Prerequisites
-- **Java 8+** (because we're not living in the stone age)
-- Any IDE that doesn't make you cry (IntelliJ IDEA, Eclipse, VS Code)
-- A functioning brain (optional but recommended) 🧠
+### 🛠️ Prerequisites
 
-### Quick Start
+<div align="center">
+
+| Requirement | Description |
+|-------------|-------------|
+| ☕ **Java 8+** | Because we're not living in the stone age |
+| 🖥️ **IDE** | Any IDE that doesn't make you cry (IntelliJ IDEA, Eclipse, VS Code) |
+| 🧠 **Brain** | A functioning brain (optional but recommended) |
+
+</div>
+
+### ⚡ Quick Start
+
 ```bash
 # Clone this masterpiece
 git clone https://github.com/Piyush64-bit/AdvanceJava-Programs.git
@@ -137,6 +182,10 @@ java CollectionsDemo
 javac LeaderBoardExample.java
 java LeaderBoardExample
 
+# Test the LRU Cache implementation
+javac LRUCacheExample.java
+java LRUCacheExample
+
 # Or check out the Calculator using enums
 cd ../Enumeration/Calculator
 javac EnumFive.java
@@ -145,12 +194,17 @@ java EnumFive
 # Watch the magic happen! ✨
 ```
 
-### Pro Tips 💡
+<details>
+<summary>💡 <strong>Pro Tips</strong></summary>
+
 - Each folder contains theory notes (`01Notes.txt`) — **READ THEM FIRST!**
 - Run programs in the order they appear (EnumOne → EnumTwo → EnumThree → EnumFour)
 - Try modifying the code and see what breaks (learning through destruction! 💥)
 - Check out the Calculator subfolder for real-world enum applications
 - Explore LeaderBoardExample.java for practical Collections usage
+- Try LRUCacheExample.java to understand caching strategies
+
+</details>
 
 ---
 
@@ -190,7 +244,8 @@ java EnumFive
 - 🗺️ HashMap key-value pair mastery and efficient lookups  
 - 🎯 PriorityQueue implementation and custom ordering
 - 🏆 LeaderBoard ranking systems with real-world applications
-- 🔍 Collections utility methods and iteration patterns
+- � LRU Cache implementation using LinkedHashMap
+- �🔍 Collections utility methods and iteration patterns
 - ⚡ Performance considerations for different data structures
 - 🎨 Choosing the right collection for the right job
 
@@ -198,19 +253,58 @@ java EnumFive
 
 ---
 
+## 📅 Learning Timeline & Milestones
+
+### **July 2025 - Advanced Java Foundation Month**
+
+```
+📅 July 21, 2025 - Day 1: Annotations Mastery
+   ✅ Meta-annotations, Custom annotations, Reflection API
+   
+📅 July 23, 2025 - Day 2: Enumeration Deep Dive  
+   ✅ Enum operations, Calculator implementation, Advanced patterns
+   
+📅 July 29, 2025 - Day 3: Collections Framework Mastery
+   ✅ HashSet, HashMap, PriorityQueue, LeaderBoard, LRU Cache
+   
+📅 July 30, 2025 - Day 4: Lambda Expressions (Planned)
+   🔄 Functional programming, Method references
+   
+📅 August 2, 2025 - Day 5: Functional Interfaces (Planned)
+   📋 Predefined interfaces, Custom functional interfaces
+```
+
+### **🎯 Weekly Learning Velocity**
+- **Week 1 (July 21-27)**: 2 Major Topics Completed
+- **Week 2 (July 28-Aug 3)**: 1+ Topics (In Progress)
+- **Average**: ~2.5 topics per week (Excellent pace! 🚀)
+
+---
+
 ## 🌟 Project Highlights
 
-### 🏆 **Featured Projects**
-- **📊 LeaderBoard Ranking System** - Real-world application using PriorityQueue for dynamic rankings
-- **🧮 Enum Calculator** - Demonstrates advanced enum usage with operation implementations  
-- **🔮 Custom Annotation Framework** - Complete annotation lifecycle with Reflection API
-- **📦 Collections Showcase** - Comprehensive data structure operations and performance comparisons
+### � Project Highlights
 
-### 🎯 **Learning Outcomes**
-- **Enterprise-level Java patterns** used in real applications
-- **Performance optimization** techniques for data structures
-- **Clean code practices** with comprehensive documentation
-- **Problem-solving approaches** for common programming challenges
+<div align="center">
+
+| �🏆 Featured Project | 📝 Description |
+|-------------------|----------------|
+| **📊 LeaderBoard Ranking System** | Real-world application using PriorityQueue for dynamic rankings |
+| **💾 LRU Cache Implementation** | Memory-efficient caching using LinkedHashMap with automatic eviction |
+| **🧮 Enum Calculator** | Demonstrates advanced enum usage with operation implementations |
+| **🔮 Custom Annotation Framework** | Complete annotation lifecycle with Reflection API |
+| **📦 Collections Showcase** | Comprehensive data structure operations and performance comparisons |
+
+</div>
+
+### 🎯 Learning Outcomes
+
+- ✅ **Enterprise-level Java patterns** used in real applications
+- ✅ **Performance optimization** techniques for data structures
+- ✅ **Clean code practices** with comprehensive documentation
+- ✅ **Problem-solving approaches** for common programming challenges
+
+---
 
 ---
 
@@ -220,29 +314,49 @@ Found a bug? 🐛 Have a better way to explain something? Want to add more examp
 
 **I'm all ears!** 👂
 
-- 🍴 **Fork** this repo
-- 🌟 **Star** it if it helped you (ego boost appreciated!)
-- 🐛 **Report issues** — I promise I won't cry
-- 💬 **Start discussions** — let's learn together!
-- 📧 **Reach out** — I don't bite (much)
+<div align="center">
+
+| 🎯 Action | 📝 Description |
+|-----------|----------------|
+| 🍴 **Fork** | Fork this repo |
+| 🌟 **Star** | Star it if it helped you (ego boost appreciated!) |
+| 🐛 **Report** | Report issues — I promise I won't cry |
+| 💬 **Discuss** | Start discussions — let's learn together! |
+| 📧 **Reach out** | Contact me — I don't bite (much) |
+
+</div>
 
 ---
 
 ## 👨‍💻 About The Author
 
+<div align="center">
+
 Hey there! I'm **Piyush** 👋
 
-- 🎓 **Java Enthusiast** on a mission to master every nook and cranny
-- 📈 **Daily Learner** — consistency over perfection
-- 🌟 **Open Source Believer** — knowledge should be free and accessible
-- ☕ **Coffee-Powered Programmer** — 3 cups minimum for optimal performance
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Java+Enthusiast+%F0%9F%8E%93;Daily+Learner+%F0%9F%93%88;Open+Source+Believer+%F0%9F%8C%9F;Coffee-Powered+Programmer+%E2%98%95" alt="Typing SVG" />
+</div>
 
-### Connect With Me
+| 🎯 Role | 📝 Description |
+|---------|----------------|
+| 🎓 **Java Enthusiast** | On a mission to master every nook and cranny |
+| 📈 **Daily Learner** | Consistency over perfection |
+| 🌟 **Open Source Believer** | Knowledge should be free and accessible |
+| ☕ **Coffee-Powered Programmer** | 3 cups minimum for optimal performance |
+
+</div>
+
+### 🤝 Connect With Me
+
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/piyush64bit)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:piiyush.sonii@outlook.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=vercel)](https://piyushportfolio.live)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Piyush64-bit)
+
+</div>
 
 ---
 
@@ -256,10 +370,15 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 🙏 Acknowledgments
 
+<details>
+<summary><strong>Click to see acknowledgments</strong></summary>
+
 - ☕ **Coffee** — for keeping me awake during late-night coding sessions
 - 🐛 **Stack Overflow** — for solving problems I didn't know I had
 - 🎯 **The Java Community** — for being awesome and supportive
 - 🔥 **You** — for checking out this repo and being part of the journey!
+
+</details>
 
 ---
 
@@ -269,6 +388,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 *Made with ❤️, lots of ☕, and a touch of 🤪*
 
-**Happy Coding! 🚀**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Happy+Coding!+%F0%9F%9A%80;Fueled+by+chai+and+late-night+debugging+%E2%98%95%F0%9F%92%BB;Keep+learning%2C+keep+growing!+%F0%9F%8C%B1" alt="Typing SVG" />
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
 
 </div>
