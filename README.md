@@ -15,6 +15,8 @@
 ![Stars](https://img.shields.io/github/stars/Piyush64-bit/AdvanceJava-Programs?style=social)
 ![Forks](https://img.shields.io/github/forks/Piyush64-bit/AdvanceJava-Programs?style=social)
 
+</div>
+
 ---
 
 ## 📖 What's This All About?
@@ -286,8 +288,6 @@ java EnumFive
 - ✅ **Performance optimization** techniques for data structures
 - ✅ **Clean code practices** with comprehensive documentation
 - ✅ **Problem-solving approaches** for common programming challenges
-
----
 
 ---
 
