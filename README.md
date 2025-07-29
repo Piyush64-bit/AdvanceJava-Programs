@@ -15,23 +15,6 @@
 ![Stars](https://img.shields.io/github/stars/Piyush64-bit/AdvanceJava-Programs?style=social)
 ![Forks](https://img.shields.io/github/forks/Piyush64-bit/AdvanceJava-Programs?style=social)
 
-</div>
-
-----Programs
-
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java-Advanced-orange?style=for-the-badge&logo=java&logoColor=white)
-![Learning](https://img.shields.io/badge/Status-Daily%20Learning-brightgreen?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge)
-![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-blue?style=for-the-badge)
-
-**� Leveling up in Advanced Java — day-by-day programs, concepts, and code that'll blow your mind! 🔥**
-
-*From zero to hero, one commit at a time* ⚡
-
-</div>
-
 ---
 
 ## 📖 What's This All About?
