@@ -1,0 +1,31 @@
+#Multithreading in java
+
+-> what is multithreading 
+> it is a technology that allows the concurrent execution of 2 more threads with a single program.
+> Each thread runs independently but shares the same proccess memory enabling efficent resource usage.
+
+-> what are threads?
+> threads in java are often reffered to as "lightweight" processess because they execute independently but at the same time communication with each other.
+> Key Concepts
+a) Threading 
+b) Multitasking
+c) Thread States: New, Runnable, Waiting, TimedWating and Terminator
+d) Memory Sharing
+e) Concurrency ->    |  |  |  |  -> multiple Threading can run in parellel.
+
+• When a java application uses multithreading, several threads execute code with the same address space.
+> all threads in a process share code, data and resources.
+> synchornization is achieved.
+> Java provides mechanisms such as syncronzed, wait(), notify() to comtrol thread interval.
+
+> threads can be created in jave using:
+    a) Extenion of "thread" class.
+    b) Runnable interface
+
+> Thread lifeCycle:
+
+-> New: Thread created
+-> Runnable: Thread is read to run, but waiting cpu time.
+-> Runnity: Thread is currently executing.
+-> Waiting/Timed Waiting: thread is paused waiting for some the thread action.
+-> Terminated: Thread has finished execution.
