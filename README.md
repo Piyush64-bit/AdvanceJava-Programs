@@ -79,7 +79,7 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 ├── 📁 Lambda/                   # (Coming Soon) Functional programming revolution
 ├── 📁 Streams/                  # (Coming Soon) Data processing like a boss
 ├── 📁 Generics/                 # (Coming Soon) Type-safe collections
-├── 📁 Multithreading/           # (Coming Soon) Concurrent programming
+├── 📁 Multithreading/           # Thread creation, synchronization & concurrent programming
 └── 📄 README.md                # You are here! 👈
 ```
 
@@ -96,6 +96,7 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 | **01** | **Annotations** | ✅ | `July 21, 2025` | Meta-data magic, `@Override`, `@Deprecated`, `@FunctionalInterface`, Custom annotations with Reflection |
 | **02** | **Enumeration** | ✅ | `July 23, 2025` | Enum constants, methods, values(), advanced patterns, Calculator implementation |
 | **03** | **Java Collections Framework** | ✅ | `July 29, 2025` | HashSet, HashMap, PriorityQueue, LeaderBoard systems, LRU Cache, data structure optimization |
+| **04** | **Multithreading** | ✅ | `July 30, 2025` | Thread creation, synchronization, locks, concurrent programming, parallel processing |
 
 </div>
 
@@ -105,8 +106,8 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 | Day | Topic | Status | Target Date | ETA |
 |-----|-------|:------:|:-----------:|:---:|
-| **04** | **Lambda Expressions** | 📋 | `July 30, 2025` | This Week |
-| **05** | **Functional Interfaces** | 📋 | `August 2, 2025` | Next Week |
+| **05** | **Lambda Expressions** | 📋 | `August 2, 2025` | Next Week |
+| **06** | **Functional Interfaces** | 📋 | `August 5, 2025` | Next Week |
 
 </div>
 
@@ -115,9 +116,8 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 - **Streams API** — Data manipulation like a ninja 🥷
 - **Generics** — Type safety without the headache 
-- **Multithreading** — Parallel processing madness
 - **Optional Class** — Say goodbye to NullPointerException
-- **Method References** — Code that writes itself (almost!)
+- **Method References** — Cleaner lambda expressions
 - **Default Methods** — Interface evolution
 - **CompletableFuture** — Async programming done right
 
@@ -252,17 +252,20 @@ java EnumFive
 📅 July 29, 2025 - Day 3: Collections Framework Mastery
    ✅ HashSet, HashMap, PriorityQueue, LeaderBoard, LRU Cache
    
-📅 July 30, 2025 - Day 4: Lambda Expressions (Planned)
-   🔄 Functional programming, Method references
+📅 July 30, 2025 - Day 4: Multithreading Mastery
+   ✅ Thread creation, synchronization, locks, concurrent programming
    
-📅 August 2, 2025 - Day 5: Functional Interfaces (Planned)
+📅 August 2, 2025 - Day 5: Lambda Expressions (Planned)
+   📋 Functional programming, Method references, Stream operations
+   
+📅 August 5, 2025 - Day 6: Functional Interfaces (Planned)
    📋 Predefined interfaces, Custom functional interfaces
 ```
 
 ### **🎯 Weekly Learning Velocity**
 - **Week 1 (July 21-27)**: 2 Major Topics Completed
-- **Week 2 (July 28-Aug 3)**: 1+ Topics (In Progress)
-- **Average**: ~2.5 topics per week (Excellent pace! 🚀)
+- **Week 2 (July 28-Aug 3)**: 2+ Topics (Excellent Progress! 🚀)
+- **Average**: ~3 topics per week (Outstanding pace! �)
 
 ---
 
