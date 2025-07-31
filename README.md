@@ -79,7 +79,9 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 ├── 📁 Lambda/                   # (Coming Soon) Functional programming revolution
 ├── 📁 Streams/                  # (Coming Soon) Data processing like a boss
 ├── 📁 Generics/                 # (Coming Soon) Type-safe collections
-├── 📁 Multithreading/           # Thread creation, synchronization & concurrent programming
+├── 📁 Multithreading/           # Thread creation, synchronization & advanced communication
+│   ├── ☕ MessageTest.java     # Inter-thread communication examples
+│   └── ☕ SynchronizationExample.java # Advanced synchronization patterns
 └── 📄 README.md                # You are here! 👈
 ```
 
@@ -97,6 +99,7 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 | **02** | **Enumeration** | ✅ | `July 23, 2025` | Enum constants, methods, values(), advanced patterns, Calculator implementation |
 | **03** | **Java Collections Framework** | ✅ | `July 29, 2025` | HashSet, HashMap, PriorityQueue, LeaderBoard systems, LRU Cache, data structure optimization |
 | **04** | **Multithreading** | ✅ | `July 30, 2025` | Thread creation, synchronization, locks, concurrent programming, parallel processing |
+| **05** | **Advanced Multithreading** | ✅ | `July 31, 2025` | Message passing, synchronization examples, inter-thread communication patterns |
 
 </div>
 
@@ -106,8 +109,8 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 | Day | Topic | Status | Target Date | ETA |
 |-----|-------|:------:|:-----------:|:---:|
-| **05** | **Lambda Expressions** | 📋 | `August 2, 2025` | Next Week |
-| **06** | **Functional Interfaces** | 📋 | `August 5, 2025` | Next Week |
+| **06** | **Lambda Expressions** | 📋 | `August 2, 2025` | Next Week |
+| **07** | **Functional Interfaces** | 📋 | `August 5, 2025` | Next Week |
 
 </div>
 
@@ -236,6 +239,34 @@ java EnumFive
 
 **Mind-Blowing Moment:** Realizing collections are the backbone of every Java application! 🏗️
 
+### 🧵 Multithreading (Day 4)
+> *"Making your code work in parallel — because one thread is never enough!"*
+
+**What You'll Learn:**
+- 🚀 Thread creation using Thread class and Runnable interface
+- 🔒 Synchronization techniques to prevent race conditions
+- 🛡️ Locks, semaphores, and concurrent collections
+- ⚡ ExecutorService and thread pools for efficient management
+- 🎯 Producer-Consumer patterns and inter-thread communication
+- 🧠 Understanding thread lifecycle and states
+- 🔥 Best practices for concurrent programming
+
+**Mind-Blowing Moment:** Watching multiple threads work together like a perfectly choreographed dance! 💃🕺
+
+### 🧵 Advanced Multithreading (Day 5)
+> *"Deep diving into thread communication — making threads talk like old friends!"*
+
+**What You'll Learn:**
+- 💬 Inter-thread communication with MessageTest.java
+- 🔒 Advanced synchronization patterns with SynchronizationExample.java
+- � Producer-Consumer implementation details
+- ⚡ Thread-safe message passing mechanisms
+- 🧠 Real-world synchronization scenarios
+- � Best practices for complex concurrent applications
+- 🛡️ Avoiding deadlocks and race conditions
+
+**Mind-Blowing Moment:** Seeing threads communicate seamlessly without data corruption! 🚀
+
 ---
 
 ## 📅 Learning Timeline & Milestones
@@ -255,17 +286,20 @@ java EnumFive
 📅 July 30, 2025 - Day 4: Multithreading Mastery
    ✅ Thread creation, synchronization, locks, concurrent programming
    
-📅 August 2, 2025 - Day 5: Lambda Expressions (Planned)
-   📋 Functional programming, Method references, Stream operations
+📅 July 31, 2025 - Day 5: Advanced Multithreading
+   ✅ MessageTest.java, SynchronizationExample.java, inter-thread communication
    
-📅 August 5, 2025 - Day 6: Functional Interfaces (Planned)
+📅 August 2, 2025 - Day 6: Lambda Expressions (Planned)
+   📋 Functional programming, method references, stream operations
+   
+📅 August 5, 2025 - Day 7: Functional Interfaces (Planned)
    📋 Predefined interfaces, Custom functional interfaces
 ```
 
 ### **🎯 Weekly Learning Velocity**
 - **Week 1 (July 21-27)**: 2 Major Topics Completed
-- **Week 2 (July 28-Aug 3)**: 2+ Topics (Excellent Progress! 🚀)
-- **Average**: ~3 topics per week (Outstanding pace! �)
+- **Week 2 (July 28-Aug 3)**: 3+ Topics (Excellent Progress! 🚀)
+- **Average**: ~3.5 topics per week (Outstanding pace! 🔥)
 
 ---
 
@@ -358,6 +392,13 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <details>
 <summary><strong>Click to see acknowledgments</strong></summary>
+
+### 👨‍🏫 Special Thanks
+
+- 🎓 **My Amazing Teacher**: [Laksh](https://github.com/zencoderlaksh) — for guiding me through these complex Java concepts with patience and expertise!
+- 🤝 **Study Buddy**: [Parv Jain](https://github.com/ParvJain672006) — my awesome classmate on this Java learning journey!
+
+### 💝 General Appreciation
 
 - ☕ **Coffee** — for keeping me awake during late-night coding sessions
 - 🐛 **Stack Overflow** — for solving problems I didn't know I had
