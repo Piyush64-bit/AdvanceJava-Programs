@@ -18,7 +18,7 @@ class MessagePrinter extends Thread {
 
             // Pausing execution using sleep()
             try {
-                Thread.sleep(1000); // Sleep for 1 second
+                Thread.sleep(5000); // Sleep for 5 second
             } catch (InterruptedException e) {
                 System.out.println("Thread execution interrupted");
             }
@@ -27,7 +27,7 @@ class MessagePrinter extends Thread {
 }
 
 // Main class with main method
-public class Day3 {
+public class MessageTest {
     public static void main(String[] args) {
         // Creating and starting threads
         new MessagePrinter("Ping").start();
