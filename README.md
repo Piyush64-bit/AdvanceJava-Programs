@@ -81,7 +81,9 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 ├── 📁 Generics/                 # (Coming Soon) Type-safe collections
 ├── 📁 Multithreading/           # Thread creation, synchronization & advanced communication
 │   ├── ☕ MessageTest.java     # Inter-thread communication examples
-│   └── ☕ SynchronizationExample.java # Advanced synchronization patterns
+│   ├── ☕ SynchronizationExample.java # Advanced synchronization patterns
+│   ├── ☕ MyBuffer.java        # Producer-Consumer with wait/notify
+│   └── ☕ Bufferrrr.java       # Enhanced Producer-Consumer implementation
 └── 📄 README.md                # You are here! 👈
 ```
 
@@ -100,6 +102,7 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 | **03** | **Java Collections Framework** | ✅ | `July 29, 2025` | HashSet, HashMap, PriorityQueue, LeaderBoard systems, LRU Cache, data structure optimization |
 | **04** | **Multithreading** | ✅ | `July 30, 2025` | Thread creation, synchronization, locks, concurrent programming, parallel processing |
 | **05** | **Advanced Multithreading** | ✅ | `July 31, 2025` | Message passing, synchronization examples, inter-thread communication patterns |
+| **06** | **Producer-Consumer Pattern** | ✅ | `August 1, 2025` | Buffer implementation, wait/notify mechanisms, thread coordination, synchronized methods |
 
 </div>
 
@@ -109,8 +112,8 @@ Whether you're a fellow Java enthusiast, a beginner trying to level up, or someo
 
 | Day | Topic | Status | Target Date | ETA |
 |-----|-------|:------:|:-----------:|:---:|
-| **06** | **Lambda Expressions** | 📋 | `August 2, 2025` | Next Week |
-| **07** | **Functional Interfaces** | 📋 | `August 5, 2025` | Next Week |
+| **07** | **Lambda Expressions** | 📋 | `August 2, 2025` | This Week |
+| **08** | **Functional Interfaces** | 📋 | `August 5, 2025` | Next Week |
 
 </div>
 
@@ -267,6 +270,20 @@ java EnumFive
 
 **Mind-Blowing Moment:** Seeing threads communicate seamlessly without data corruption! 🚀
 
+### 🏭 Producer-Consumer Pattern (Day 6)
+> *"The classic threading problem — making producers and consumers work in perfect harmony!"*
+
+**What You'll Learn:**
+- 🔄 Implementing the classic Producer-Consumer pattern
+- 📦 Bounded buffer implementation with LinkedList
+- 🔒 Using `wait()` and `notify()` for thread coordination
+- ⚡ Synchronized methods for thread safety
+- 🧠 Handling buffer full/empty conditions gracefully
+- 🎯 Real-world application of multithreading concepts
+- 📝 Comprehensive code documentation and comments
+
+**Mind-Blowing Moment:** Watching producers wait when buffer is full and consumers wait when empty - perfect synchronization! 🎭
+
 ---
 
 ## 📅 Learning Timeline & Milestones
@@ -289,17 +306,20 @@ java EnumFive
 📅 July 31, 2025 - Day 5: Advanced Multithreading
    ✅ MessageTest.java, SynchronizationExample.java, inter-thread communication
    
-📅 August 2, 2025 - Day 6: Lambda Expressions (Planned)
+📅 August 1, 2025 - Day 6: Producer-Consumer Pattern
+   ✅ Bufferrrr.java, MyBuffer.java, synchronized buffer implementation
+   
+📅 August 2, 2025 - Day 7: Lambda Expressions (Planned)
    📋 Functional programming, method references, stream operations
    
-📅 August 5, 2025 - Day 7: Functional Interfaces (Planned)
+📅 August 5, 2025 - Day 8: Functional Interfaces (Planned)
    📋 Predefined interfaces, Custom functional interfaces
 ```
 
 ### **🎯 Weekly Learning Velocity**
 - **Week 1 (July 21-27)**: 2 Major Topics Completed
-- **Week 2 (July 28-Aug 3)**: 3+ Topics (Excellent Progress! 🚀)
-- **Average**: ~3.5 topics per week (Outstanding pace! 🔥)
+- **Week 2 (July 28-Aug 3)**: 4+ Topics (Outstanding Progress! 🚀)
+- **Average**: ~4 topics per week (Exceptional pace! 🔥)
 
 ---
 
