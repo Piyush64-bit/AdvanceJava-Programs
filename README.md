@@ -103,6 +103,10 @@ mindmap
       📝 Basic Enums
       🧮 Calculator App
       🎯 Real Applications
+    🌐 JSP
+      📄 Server Pages
+      🔄 Dynamic Web Content
+      🏗️ MVC Architecture
 ```
 
 ### 📁 Repository Structure Overview
@@ -119,6 +123,7 @@ mindmap
 | **📊 Collections** | Advanced data structures, LeaderBoard, LRU Cache implementations | ⭐⭐⭐ Medium | 🔥🔥🔥🔥 Very High | 🚨 CRITICAL |
 | **🏷️ Enumerations** | From basic enums to building real calculator applications | ⭐⭐ Easy | 🔥🔥🔥 High | 📈 HIGH |
 | **🧵 Multithreading** | Producer-Consumer, Synchronization, Concurrent Programming | ⭐⭐⭐⭐ Hard | 🔥🔥🔥🔥🔥 Extreme | 🚨 CRITICAL |
+| **🌐 JSP** | Java Server Pages, Dynamic Web Applications, MVC Architecture | ⭐⭐⭐ Medium | 🔥🔥🔥🔥 Very High | 🚨 CRITICAL |
 
 </div>
 
@@ -161,6 +166,9 @@ mindmap
 │   ├── ☕ SynchronizationExample.java # Advanced synchronization patterns
 │   ├── ☕ MyBuffer.java        # Producer-Consumer with wait/notify
 │   └── ☕ Bufferrrr.java       # Enhanced Producer-Consumer implementation
+├── 📁 JSP/                     # Java Server Pages & Dynamic Web Development
+│   ├── 📄 01_Notes.txt         # JSP fundamentals & lifecycle
+│   └── ☕ Hello.jsp            # Basic JSP with dynamic content
 └── 📄 README.md                # You are here! 👈
 ```
 
@@ -169,7 +177,7 @@ mindmap
 ## 🎯 Learning Roadmap & Progress
 
 > [!SUCCESS]
-> **6 Major Topics Completed** in just 12 days! Outstanding pace! 🚀
+> **7 Major Topics Completed** in just 15 days! Outstanding pace! 🚀
 
 ### 🟢 Completed Topics
 
@@ -183,6 +191,7 @@ mindmap
 | **04** | **Multithreading** | ✅ | `July 30, 2025` | Thread creation, synchronization, locks, concurrent programming, parallel processing | 🔴 Hard |
 | **05** | **Advanced Multithreading** | ✅ | `July 31, 2025` | Message passing, synchronization examples, inter-thread communication patterns | 🔴 Hard |
 | **06** | **Producer-Consumer Pattern** | ✅ | `August 1, 2025` | Buffer implementation, wait/notify mechanisms, thread coordination, synchronized methods | 🔴 Hard |
+| **07** | **JSP (Java Server Pages)** | ✅ | `August 5, 2025` | Server-side technology, dynamic web content, JSP lifecycle, MVC architecture, embedding Java in HTML | 🟡 Medium |
 
 </div>
 
@@ -198,9 +207,11 @@ gantt
     Multithreading    :done, mt1, 2025-07-30, 1d
     Advanced MT       :done, mt2, 2025-07-31, 1d
     Producer-Consumer :done, pc, 2025-08-01, 1d
+    section Web Development
+    JSP (Java Server Pages) :done, jsp, 2025-08-05, 1d
     section Upcoming
-    Lambda Expressions :active, lambda, 2025-08-02, 1d
-    Functional Interfaces : fi, 2025-08-05, 1d
+    Lambda Expressions :active, lambda, 2025-08-06, 1d
+    Functional Interfaces : fi, 2025-08-08, 1d
 ```
 
 ### 🟡 In Progress
@@ -212,14 +223,14 @@ gantt
 
 | Day | Topic | Status | Target Date | ETA | Priority |
 |-----|-------|:------:|:-----------:|:---:|:--------:|
-| **07** | **Lambda Expressions** | 📋 | `August 2, 2025` | This Week | 🔴 Critical |
-| **08** | **Functional Interfaces** | 📋 | `August 5, 2025` | Next Week | 🟡 High |
+| **08** | **Lambda Expressions** | 📋 | `August 6, 2025` | This Week | 🔴 Critical |
+| **09** | **Functional Interfaces** | 📋 | `August 8, 2025` | Next Week | 🟡 High |
 
 </div>
 
 ```mermaid
 graph LR
-    A[🧵 Multithreading Mastery] --> B[🔥 Lambda Expressions]
+    A[🌐 JSP Mastery] --> B[🔥 Lambda Expressions]
     B --> C[⚡ Functional Interfaces]
     C --> D[🌊 Streams API]
     
@@ -403,6 +414,21 @@ java EnumFive
 
 **Mind-Blowing Moment:** Watching producers wait when buffer is full and consumers wait when empty - perfect synchronization! 🎭
 
+### 🌐 JSP - Java Server Pages (Day 7)
+> *"Server-side magic that turns static HTML into dynamic web experiences!"*
+
+**What You'll Learn:**
+- 🌐 Understanding JSP as a server-side technology
+- 🔄 How JSP pages are converted into Java servlets
+- 📄 JSP lifecycle: Translation → Compilation → Loading → Initialization → Request Handling → Destruction
+- 🏗️ Building dynamic web applications with embedded Java code
+- 🎯 Using JSP in MVC (Model-View-Controller) architecture
+- ⚡ JSP elements: Declarations (`<%! %>`), Scriptlets (`<% %>`), Expressions (`<%= %>`)
+- 🌟 Creating interactive web forms and handling user input
+- 💾 Session management and request processing
+
+**Mind-Blowing Moment:** Realizing JSP seamlessly bridges the gap between Java backend logic and frontend presentation! 🌉
+
 ---
 
 ## 📅 Learning Timeline & Milestones
@@ -428,10 +454,13 @@ java EnumFive
 📅 August 1, 2025 - Day 6: Producer-Consumer Pattern
    ✅ Bufferrrr.java, MyBuffer.java, synchronized buffer implementation
    
-📅 August 2, 2025 - Day 7: Lambda Expressions (Planned)
+📅 August 5, 2025 - Day 7: JSP (Java Server Pages)
+   ✅ Server-side technology, dynamic web content, JSP lifecycle, MVC architecture
+   
+📅 August 6, 2025 - Day 8: Lambda Expressions (Planned)
    📋 Functional programming, method references, stream operations
    
-📅 August 5, 2025 - Day 8: Functional Interfaces (Planned)
+📅 August 8, 2025 - Day 9: Functional Interfaces (Planned)
    📋 Predefined interfaces, Custom functional interfaces
 ```
 
@@ -451,7 +480,8 @@ xychart-beta
 |-----------|----------|-----------|
 | **Week 1 (July 21-27)** | 2 Major Topics Completed | ✅ On Track |
 | **Week 2 (July 28-Aug 3)** | 4+ Topics (Outstanding Progress! 🚀) | 🚀 Exceeded |
-| **Average** | ~4 topics per week (Exceptional pace! 🔥) | 🏆 Excellent |
+| **Week 3 (Aug 4-10)** | 1+ Topics (JSP + Lambda) | 🎯 In Progress |
+| **Average** | ~2-3 topics per week (Excellent pace! 🔥) | 🏆 Excellent |
 
 </div>
 

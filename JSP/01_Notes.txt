@@ -1,0 +1,84 @@
+# JSP (Java Server Pages) - Complete Notes
+
+## 📖 Definition
+**JSP (Java Server Pages)** - A server-side technology that enables developers to create dynamic web applications by embedding Java code directly within HTML, XML, or other markup documents.
+
+## 🔄 How JSP Works
+
+```
+Browser Request → JSP Pages → Web Server
+                           ↓
+                    (Converts JSP into Java Servlet)
+                           ↓
+                    Dynamic Content Generated
+                           ↓
+                    HTML Response → Browser
+```
+
+## ✨ Key Features
+
+### a) **Code Integration**
+   - Allows mixing Java code with HTML structure seamlessly
+   - Enables dynamic content generation within static markup
+
+### b) **Platform Independence**
+   - Platform independent and compatible with major Java web servers
+   - Write once, run anywhere (WORA) principle applies
+
+### c) **MVC Architecture Support**
+   - Used to build the View component in MVC (Model-View-Controller) architecture
+   - Separates presentation logic from business logic
+
+### d) **Java Library Access**
+   - Has full access to all Java libraries and APIs
+   - Examples: JDBC for database connectivity, Collections, etc.
+
+---
+
+## 🔄 JSP Processing Steps
+
+### Step-by-Step Execution Process:
+
+**Step 1:** 🌐 **Client Request**
+   - Client (browser) requests a JSP page from the server
+
+**Step 2:** 🔍 **Server Verification**
+   - The server checks if a compiled servlet version already exists
+   - If not found → Translates JSP → Java servlet and compiles it
+
+**Step 3:** ⚡ **Servlet Execution**
+   - Servlet is executed, generating HTML as output
+   - Dynamic content is processed and prepared
+
+**Step 4:** 📤 **Response Delivery**
+   - The web server sends the generated output back to the client
+
+---
+
+## 🔄 JSP Lifecycle
+
+The JSP lifecycle consists of the following phases:
+
+### a) **Translation Phase** 📝
+   - JSP page is converted into Java servlet source code
+   - Parser analyzes JSP syntax and generates servlet code
+
+### b) **Compilation Phase** ⚙️
+   - Servlet source code is compiled into bytecode
+   - Creates .class files for execution
+
+### c) **Loading Phase** 💾
+   - Class loader loads the compiled servlet class into memory
+   - Servlet becomes available for execution
+
+### d) **Initialization Phase** 🚀
+   - Servlet object is created and initialized
+   - `jspInit()` method is called (if overridden)
+
+### e) **Request Handling Phase** 🔄
+   - `_jspService()` method processes client requests
+   - Generates dynamic responses for each request
+
+### f) **Destruction Phase** 🗑️
+   - Servlet is destroyed when no longer needed
+   - `jspDestroy()` method is called for cleanup
