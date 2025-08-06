@@ -168,7 +168,8 @@ mindmap
 │   └── ☕ Bufferrrr.java       # Enhanced Producer-Consumer implementation
 ├── 📁 JSP/                     # Java Server Pages & Dynamic Web Development
 │   ├── 📄 01_Notes.txt         # JSP fundamentals & lifecycle
-│   └── ☕ Hello.jsp            # Basic JSP with dynamic content
+│   ├── ☕ Hello.jsp            # Basic JSP with dynamic content
+│   └── 📄 Example.txt          # Power of 2 table example & JSP lifecycle
 └── 📄 README.md                # You are here! 👈
 ```
 
@@ -191,7 +192,7 @@ mindmap
 | **04** | **Multithreading** | ✅ | `July 30, 2025` | Thread creation, synchronization, locks, concurrent programming, parallel processing | 🔴 Hard |
 | **05** | **Advanced Multithreading** | ✅ | `July 31, 2025` | Message passing, synchronization examples, inter-thread communication patterns | 🔴 Hard |
 | **06** | **Producer-Consumer Pattern** | ✅ | `August 1, 2025` | Buffer implementation, wait/notify mechanisms, thread coordination, synchronized methods | 🔴 Hard |
-| **07** | **JSP (Java Server Pages)** | ✅ | `August 5, 2025` | Server-side technology, dynamic web content, JSP lifecycle, MVC architecture, embedding Java in HTML | 🟡 Medium |
+| **07** | **JSP (Java Server Pages)** | ✅ | `August 5-6, 2025` | Server-side technology, dynamic web content, JSP lifecycle, MVC architecture, embedding Java in HTML, Power of 2 examples | 🟡 Medium |
 
 </div>
 
@@ -208,9 +209,9 @@ gantt
     Advanced MT       :done, mt2, 2025-07-31, 1d
     Producer-Consumer :done, pc, 2025-08-01, 1d
     section Web Development
-    JSP (Java Server Pages) :done, jsp, 2025-08-05, 1d
+    JSP (Java Server Pages) :done, jsp, 2025-08-05, 2d
     section Upcoming
-    Lambda Expressions :active, lambda, 2025-08-06, 1d
+    Lambda Expressions :active, lambda, 2025-08-07, 1d
     Functional Interfaces : fi, 2025-08-08, 1d
 ```
 
@@ -223,8 +224,8 @@ gantt
 
 | Day | Topic | Status | Target Date | ETA | Priority |
 |-----|-------|:------:|:-----------:|:---:|:--------:|
-| **08** | **Lambda Expressions** | 📋 | `August 6, 2025` | This Week | 🔴 Critical |
-| **09** | **Functional Interfaces** | 📋 | `August 8, 2025` | Next Week | 🟡 High |
+| **08** | **Lambda Expressions** | 📋 | `August 7, 2025` | This Week | 🔴 Critical |
+| **09** | **Functional Interfaces** | 📋 | `August 9, 2025` | Next Week | 🟡 High |
 
 </div>
 
@@ -426,8 +427,15 @@ java EnumFive
 - ⚡ JSP elements: Declarations (`<%! %>`), Scriptlets (`<% %>`), Expressions (`<%= %>`)
 - 🌟 Creating interactive web forms and handling user input
 - 💾 Session management and request processing
+- 🧮 **Practical Example**: Building a "Power of 2" table with dynamic content generation
+- 🚀 **Deployment Process**: From `.jsp` files to running web applications
 
 **Mind-Blowing Moment:** Realizing JSP seamlessly bridges the gap between Java backend logic and frontend presentation! 🌉
+
+**📝 Key Files:**
+- `01_Notes.txt` - Complete JSP fundamentals and lifecycle
+- `Hello.jsp` - Interactive JSP with forms and dynamic content
+- `Example.txt` - Power of 2 table example with deployment guide
 
 ---
 
@@ -454,13 +462,13 @@ java EnumFive
 📅 August 1, 2025 - Day 6: Producer-Consumer Pattern
    ✅ Bufferrrr.java, MyBuffer.java, synchronized buffer implementation
    
-📅 August 5, 2025 - Day 7: JSP (Java Server Pages)
-   ✅ Server-side technology, dynamic web content, JSP lifecycle, MVC architecture
+📅 August 5-6, 2025 - Day 7: JSP (Java Server Pages)
+   ✅ Server-side technology, dynamic web content, JSP lifecycle, MVC architecture, Power of 2 examples
    
-📅 August 6, 2025 - Day 8: Lambda Expressions (Planned)
+📅 August 7, 2025 - Day 8: Lambda Expressions (Planned)
    📋 Functional programming, method references, stream operations
    
-📅 August 8, 2025 - Day 9: Functional Interfaces (Planned)
+📅 August 9, 2025 - Day 9: Functional Interfaces (Planned)
    📋 Predefined interfaces, Custom functional interfaces
 ```
 
@@ -503,6 +511,7 @@ xychart-beta
 | **🧮 Enum Calculator** | Demonstrates advanced enum usage with operation implementations |
 | **🔮 Custom Annotation Framework** | Complete annotation lifecycle with Reflection API |
 | **📦 Collections Showcase** | Comprehensive data structure operations and performance comparisons |
+| **🌐 JSP Power of 2 Table** | Dynamic web content generation with JSP lifecycle demonstration |
 
 </div>
 

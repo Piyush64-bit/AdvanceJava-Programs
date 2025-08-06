@@ -1,0 +1,62 @@
+# JSP Example - Power of 2 Table
+
+## 📝 **Code Example:**
+
+```jsp
+<html>
+<head>
+    <title>Power of 2</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Number</th>
+            <th>Exponent of 2</th>
+        </tr>
+        <% for (int i = 0; i <= 10; i++) { %>
+        <tr>
+            <td><%= i %></td>
+            <td><%= Math.pow(2, i) %></td>
+        </tr>
+        <% } %>
+    </table>
+</body>
+</html>
+```
+
+**💡 Purpose:** Dynamically generated table → generating elements to the power of 2.
+
+---
+
+## 🚀 **Running a JSP Page:**
+
+### **Step-by-Step Process:**
+
+**a)** Save your code as `.jsp` file  
+**b)** Place it in the server's web application directory  
+**c)** Start your JSP-enabled server  
+**d)** Access the page using: `http://localhost:port/yourapp/hello.jsp`
+
+---
+
+## 🔄 **JSP Lifecycle Diagram:**
+
+### **Phase-by-Phase Breakdown:**
+
+**a) Translation Phase**  
+   - JSP file → Java servlet source code
+
+**b) Compilation Phase**  
+   - Servlet source → Servlet bytecode (.class file)
+
+**c) Class Loading Phase**  
+   - Servlet class loaded by container
+
+**d) Initialization Phase**  
+   - `jspInit()` method called once
+
+**e) Request Handling Phase**  
+   - `jspService()` method called per request
+
+**f) Destruction Phase**  
+   - `jspDestroy()` method called once when servlet is destroyed
